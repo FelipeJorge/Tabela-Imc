@@ -5,10 +5,12 @@
 body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 14px;
+
 }
 
 header{
-	background-color: #333;
+	background: #256286;
+
 	height: 3em;
 	color: #FFF;
 	margin-bottom: 1em;
@@ -67,7 +69,8 @@ td, th {
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background: #6a98b5;
+	color: white;
 }
 
 label{
@@ -125,8 +128,11 @@ button[disabled=disabled], button:disabled {
 
 }
 
-.adicionar-paciente{
-    margin-top: 30px;
+#adicionar-paciente{
+    margin:15px 0px;
+	background: #256286;
+	width: 50%;
+
 }
 
 .campo-invalido{
