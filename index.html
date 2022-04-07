@@ -67,6 +67,7 @@
 							<td class="info-imc">0</td>
 						</tr>
 					</tbody>
+					<button id="buscar-pacientes" class="botao bto-principal">Buscar Pacientes</button>
 			</section>
 			<section>
 				<h2 id="titulo-form">Adicionar novo paciente</h2>
@@ -90,13 +91,19 @@
 						<label for="gordura">% de Gordura:</label>
 						<input id="gordura" name="gordura" type="text" placeholder="digite a porcentagem de gordura do paciente" class="campo campo-medio">
 					</div>
-			
+					
 					<button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
 				</form>
+				<label for="filtrar-tabela">Filtrar:</label>
+				<input type="text" name="filtro" id="filtrar-tabela" placeholder="digite o nome do paciente">
 			</section>
+			
 		</main>	
 		
 		<script src="./js/imc.js"></script>
 		<script src="./js/form.js"></script>
+		<script src="./js/remover-paciente.js"></script>
+		<script src="./js/filtra.js"></script>
+		<script src="./js/buscar-paciente.js"></script>
 	</body>
 </html>

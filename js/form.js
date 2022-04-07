@@ -74,7 +74,7 @@ function validaPaciente(paciente){ // validacao de dados no form
 
     var erros = [];
 
-    if(paciente.nome.length == 0){
+    if(paciente.nome.length  == 0){
         erros.push("O nome deve ser preenchido");
     }
 
