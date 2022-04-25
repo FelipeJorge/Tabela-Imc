@@ -9,7 +9,7 @@ Tebela interativa que calcula o imc de diferentes pacientes
 
 - Requisição AJAX para buscar pacientes de um documento externo
 
-Projeto disponivel em : https://tabela-de-imc.netlify.app/
+- Projeto disponível em : https://tabela-de-imc.netlify.app/
 
 
 
